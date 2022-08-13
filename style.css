@@ -1,0 +1,14 @@
+#calculadora{
+    margin-top: 5%;
+    width: 27%;
+    margin: auto;
+    background-color: rgb(41, 102, 155);
+    padding: 8px;
+    border-radius: 6px;
+}
+
+textarea{
+    font-size: 40px;
+    text-align: right;
+    resize: none;
+}
