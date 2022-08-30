@@ -1,10 +1,10 @@
-#calculadora{
-    margin-top: 5%;
-    width: 27%;
+#cabeca{
+    width: 300px;
     margin: auto;
-    background-color: rgb(41, 102, 155);
-    padding: 8px;
-    border-radius: 6px;
+    background-color: #2a2a2aee;
+    padding: 10px;
+    color: #ffffff;
+    text-align: right;
 }
 
 textarea{
@@ -12,3 +12,39 @@ textarea{
     text-align: right;
     resize: none;
 }
+
+#corpo{
+    margin: auto;
+    width: 300px;
+    background-color: #2a2a2aee;
+    padding: 10px;
+
+}
+
+input{
+    width: 72px;
+    height: 50px;
+    margin-top: 3px;
+    font-size: 20px;
+    border: none;
+    background-color: #1a1a1aee;
+    color: white;
+}
+
+p{
+    font-size: 30px;
+}
+
+.red{
+    background-color: #903a42ee;
+}
+
+.red:hover{
+    background-color: #d31222ee;
+}
+
+.black{
+    background-color: #090909;
+}
+
+

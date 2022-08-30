@@ -8,12 +8,45 @@
     <title>Cálculadora</title>
 </head>
 <body>
-    <script src="script.js"></script>
+    <script src="main.js"></script>
     <main>
-        <div id="calculadora">   
-            <textarea name="resultado" id="resultado" cols="15" rows="1" readonly>0,</textarea>
-            <input type="button" value="%">
+        <div id="cabeca">  
+            <p>Cálculadora</p> 
+            <p id="resultado">0</p>
         </div>
+
+        <div id="corpo">
+            <input type="button" value="%">
+            <input type="button" value="CE">
+            <input type="button" value="C">
+            <input type="button" value="<=">
+
+            <input type="button" value="1/x">
+            <input type="button" value="x^2">
+            <input type="button" value="x^-2">
+            <input type="button" value="/">
+
+            <input type="button" value="7" class="black">
+            <input type="button" value="8" class="black">
+            <input type="button" value="9" class="black">
+            <input type="button" value="*">
+
+            <input type="button" value="4" class="black">
+            <input type="button" value="5" class="black">
+            <input type="button" value="6" class="black">
+            <input type="button" value="-">
+
+            <input type="button" value="1" class="black">
+            <input type="button" value="2" class="black">
+            <input type="button" value="3" class="black">
+            <input type="button" value="+">
+
+            <input type="button" value="+/-" class="black">
+            <input type="button" value="0" class="black">
+            <input type="button" value="," class="black">
+            <input type="button" value="=" class="red">
+        </div>
+
     </main>
 </body>
 </html>
