@@ -6,19 +6,17 @@
     color: #ffffff;
     text-align: right;
 }
-
-textarea{
-    font-size: 40px;
-    text-align: right;
-    resize: none;
-}
-
 #corpo{
     margin: auto;
     width: 300px;
     background-color: #2a2a2aee;
     padding: 10px;
+}
 
+textarea{
+    font-size: 40px;
+    text-align: right;
+    resize: none;
 }
 
 input{
@@ -30,6 +28,9 @@ input{
     background-color: #1a1a1aee;
     color: white;
 }
+input:hover{
+    background-color: #4a4b4c;
+}
 
 p{
     font-size: 30px;
@@ -38,13 +39,16 @@ p{
 .red{
     background-color: #903a42ee;
 }
-
 .red:hover{
     background-color: #d31222ee;
 }
 
 .black{
     background-color: #090909;
+    
 }
 
+.number{
+    background-color: #090909;
+}
 
